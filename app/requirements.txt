@@ -1,0 +1,9 @@
+passlib[bcrypt]~=1.7.4
+python-jose[cryptography]
+numpy~=1.23.4
+sympy~=1.11.1
+fastapi~=0.86.0
+pydantic~=1.10.2
+opencv-python-headless
+uvicorn
+python-multipart
