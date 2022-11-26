@@ -5,7 +5,7 @@ COPY requirements.txt /code/requirements.txt
 RUN pip install -r requirements.txt
 
 RUN set PYTHONPATH=.
-COPY main.py /code
+COPY app.py /code
 
 EXPOSE 20153
 ENTRYPOINT ["uvicorn"]
